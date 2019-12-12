@@ -1,0 +1,13 @@
+<!--pages/components/searchbar/searchbar.wxml-->
+<view class="page">
+  <i-icon type="search" class="iconS" />
+  <input placeholder="故宫口红" class="inp" type="search" autofocus bindblur="search">
+  </input>
+</view>
+<view class="hotS">
+  <text>热门搜索</text>
+  <view class="searchIn">
+    <text>故宫面膜</text>
+    <text>福禄</text>
+  </view>
+</view>

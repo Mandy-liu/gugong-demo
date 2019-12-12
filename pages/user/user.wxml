@@ -1,0 +1,12 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+我的页面
+  <!-- 弹窗 -->
+  <!-- <modal title="温馨提示：" confirm-text="立即注册" cancel-text="以后再说"
+   hidden="{{modalHidden}}" bindconfirm="confirmChange" bindcancel="cancellChange" >
+  您还未注册,请先注册。
+  </modal> -->
+
+
+
+</view>

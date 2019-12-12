@@ -1,0 +1,43 @@
+/* pages/components/searchbar/searchbar.wxss */
+
+.page {
+  padding: 20rpx;
+  background: #eee;
+  position: relative;
+}
+
+.page .iconS {
+  position: absolute;
+  left: 50rpx;
+}
+
+.page .inp {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 10rpx;
+  background: #fff;
+  padding: 5rpx 0rpx 5rpx 60rpx;
+  font-size: 16px;
+}
+
+.hotS text {
+  padding: 15px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1;
+  color: #999;
+}
+
+.searchIn text {
+  margin: 10px;
+  padding:5px 10px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 2px;
+  border: none;
+  background: #f6f6f6;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}

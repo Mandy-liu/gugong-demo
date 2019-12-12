@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="head">
+  <image class="headImg" src="https://img.yzcdn.cn/upload_files/2019/04/10/FkQ5ggf58_Y2uS32f6uSBSwApgYx.jpg!large.jpg" mode="widthFix" />
+</view>
+<swiper class="top" autoplay='true' interval='2000' duration='500' circular='true' indicator-dots="true" indicator-active-color="#eee">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image class="topimage" src="{{item}}"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="page">
+  <i-icon type="search" class="iconS" />
+  <input placeholder="故宫口红" class="inp" type="search" disabled bindtap="inpClick">
+  </input>
+</view>
+<view class="indexBlock">
+  <image src="https://img.yzcdn.cn/upload_files/2019/04/16/FvWpdqWiM9acFAjVanyAjEaqSCuJ.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="indexblock">
+  <view class="block" wx:for="numBlock" wx:key="index" bindtap="block{{index}}"> {{index}}</view>
+</view>
+
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/12/02/Fs1jqUGMK1GFiQsfl8BCezEeHeWt.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/12/10/FtHV5zBUtDON3cSULt9b8Rn9HNRi.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/12/02/FnJ7Hmp8PCUYUvHOsbOcv86D32zD.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/11/07/Fu4aM6CzTD6wZpnmI0FCPNu4fObD.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/11/07/Ft-SOQYt1op2xBXfwbHETrr87hfU.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/11/07/FtTi5t4DPdDqlkfqcUHU8genBHhd.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/11/07/FsbC3IN72PEvpidcqDejetezxIrh.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="bottom1 conImg">
+  <image src="https://img.yzcdn.cn/upload_files/2019/05/09/FnvlLOiXsaSWbckthCi2P7sCL6IS.jpg!large.jpg" mode="widthFix" />
+</view>
+<view class="bottom2">
+  <i-cell title="故宫文化创意馆" slot="icon='homepage'" is-link url="/pages/goods/goods">icon咋加进去</i-cell>
+</view>
